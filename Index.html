@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1><u>Nukella Yashaswi Sai Teja</u></h1>
+    <nav>
+      <u><a href="#about">About</a></u>
+      <u><a href="#skills">Skills</a></u>
+      <u><a href="#projects">Projects</a></u>
+      <u><a href="#contact">Contact</a></u>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm a Frontend web developer.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>Node.js, MongoDB</li>
+      <li>Problem Solving, Communication</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div>
+      <h3>Project One</h3>
+      <p>An app that shows the current condition of the Weather.</p>
+      <a href="https://github.com/yashaswisaiteja/My_projects_2nd_year" target="_blank">GitHub</a>
+      <h3>Project Two</h3>
+      <p>Bus Booking Management System.</p>
+      <a href="https://github.com/yashaswisaiteja/JAVA_roject" target="_blank">GitHub</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form onsubmit="submitForm(event)">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Your Name</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
