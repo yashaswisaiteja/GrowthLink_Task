@@ -13,5 +13,5 @@ A personal portfolio to showcase my skills, projects, and contact details.
 ## How to Run
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/portfolio-website
-cd portfolio-website
+git clonehttps://github.com/yashaswisaiteja/GrowthLink_Task
+cd GrowthLink_Task
